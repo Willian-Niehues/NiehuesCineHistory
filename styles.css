@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+
 body {
     color: white;
     background: rgb(194, 201, 206);
@@ -80,4 +90,35 @@ img {
 }
 .apresenta-lista{
     display: none;
+}
+.alto-contraste{
+background-color: var(--alto-contraste-fundo);
+color: var(--alto-contraste-texto);
+}
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste .nav-link{
+    color: var (--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste #chamada{
+    background: none;
+}
+
+.alto-contraste #categoria{
+    background-color: var(--alto-contraste-fundo) ;
+}
+.alto-contraste .fundo-categoria {
+    background: none;
 }
