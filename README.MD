@@ -12,3 +12,8 @@ Refatoração de um site implementando recursos de acessibilidade no html, css e
 - HTML
 - CSS
 - JS
+## Criterios
+- Originalidade
+- Complexidade do código
+- Usabilidade
+- Publicação
